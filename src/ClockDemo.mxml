@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+				layout="absolute"
+				preinitialize="HydraFramework.initialize(this, ClockFacade)">
+	<mx:Script>
+		<![CDATA[
+			import com.hydraframework.core.HydraFramework;
+			import com.hydraframework.demos.clock.core.ClockFacade;
+		]]>
+	</mx:Script>
+	<mx:VBox>
+		<mx:TextInput id="wClockDisplay"
+					  width="100"/>
+		<mx:Button id="wGetTimeButton"
+				   label="Get Time"/>
+		<mx:TextInput id="wSetTimeInput"
+					  width="100"/>
+		<mx:Button id="wSetTimeButton"
+				   label="Set Time"/>
+	</mx:VBox>
+</mx:Application>
