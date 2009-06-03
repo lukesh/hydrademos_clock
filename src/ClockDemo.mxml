@@ -5,7 +5,7 @@
 	<mx:Script>
 		<![CDATA[
 			import com.hydraframework.core.HydraFramework;
-			import com.hydraframework.demos.clock.core.ClockFacade;
+			import com.hydraframework.demos.clock.ClockFacade;
 		]]>
 	</mx:Script>
 	<mx:VBox>
